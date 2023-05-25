@@ -1,0 +1,99 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:5;
+  margin:10;
+  background-color:#f4f4f4;
+}
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:150px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+h1{
+  padding:115;
+  margin:100;
+  }
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight{
+  color:#40b6ff;
+  font-weight:bold;
+}
+header .current a{
+  color:#ff2b35;
+  font-weight:bold;
+}
+nav ul li a:hover{
+  color:#ff001f;
+  font-weight:bold;
+}
+/* Cricket Table Styling */
+.cricket-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.cricket-table th, .cricket-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.cricket-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.cricket-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.cricket-table tr:hover {
+  background-color: #f5f5f5;
+}
+p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #333;
+        margin: 20px 0;
+      }
+img {
+        max-width: 100%;
+        height: auto;
+      }
+#showcase3{
+  min-height:200px;
+  background:url('../img/showcase4.png') no-repeat , 225px;
+  background-height:250px;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
